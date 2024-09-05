@@ -47,3 +47,5 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/htc/m8-common/releasetools
 
 # Inherit from the proprietary version
 include vendor/htc/m8-common/BoardConfigVendor.mk
+
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
